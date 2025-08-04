@@ -9,7 +9,7 @@ app.use(express.json());
 app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://alvinv295:xnHWpBkW1g3r7Mzk@cluster0.y6esqsz.mongodb.net/Blog?retryWrites=true&w=majority";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://alvinv295:pi9frtQciDLxSXPd@cluster0.94glqnz.mongodb.net/Blog?retryWrites=true&w=majority";
 
 mongoose
   .connect(MONGODB_URI)
